@@ -12,7 +12,7 @@ function letterCombinations(input_digit) {
 	let sol=[];
 
 	function solve(index,String){
-		if(input_digit.lenth<=index){
+		if(input_digit.length<=index){
 			sol.push(String);
 			return;
 		}
