@@ -22,6 +22,7 @@ function letterCombinations(input_digit) {
 		}
 	}
 	solve(0,"");
+	return sol;
 }
 
 module.exports = letterCombinations;
